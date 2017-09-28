@@ -3,7 +3,7 @@ namespace app\api\controller;
 
 class Zixun extends \think\Controller
 {
-    public function get()
+    public function index()
     {
     	// 查询列表
     	$zixun_list = db("article_21")->paginate(10);
