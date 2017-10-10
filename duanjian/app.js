@@ -31,6 +31,9 @@ App({
     cityArray: [],//市区数组
     keyword:'',//登录注册后获取用户数据关键字
     member:'',//保存会员用户数据
+<<<<<<< HEAD
     content_data:'',//资讯的详细内容
+=======
+>>>>>>> b830e60e54bb53d0353030a21b4cbe139fd3fd36
   }
 })

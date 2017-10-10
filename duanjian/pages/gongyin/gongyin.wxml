@@ -13,7 +13,11 @@
 <!--详细数据  -->
 <view class="none" wx-if="{{zixun.length==0}}">该类暂时没有讯息</view>
 <view class='contentt'>
+<<<<<<< HEAD
   <view class='xianxi' wx:for="{{zixun}}" wx:key="dd" data-id='{{item.itemid}}'  bindtap=" nvaicat_details" data-index='{{index}}'>
+=======
+  <view class='xianxi' wx:for="{{zixun}}" wx:key="dd" data-id='{{item.itemid}}'>
+>>>>>>> b830e60e54bb53d0353030a21b4cbe139fd3fd36
     <view class='left'>
       <image src='../../images/01.jpg'></image>
     </view>

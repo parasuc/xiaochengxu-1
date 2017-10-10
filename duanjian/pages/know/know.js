@@ -408,6 +408,7 @@ getProvence:function(){
      this.setData({
         keyword:''
      })
+<<<<<<< HEAD
   },
 
     nvaicat_details: function (ev) {
@@ -416,5 +417,7 @@ getProvence:function(){
      wx.navigateTo({
         url: '',
      })
+=======
+>>>>>>> b830e60e54bb53d0353030a21b4cbe139fd3fd36
   }
 })

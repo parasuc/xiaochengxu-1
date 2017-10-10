@@ -30,7 +30,10 @@ class Gongyin extends \think\Controller
      			->alias("a")
          ->where($where_sql)
          ->join("area c","c.areaid = a.areaid")
+<<<<<<< HEAD
              ->join("sell_data_5 d","d.itemid=a.itemid")
+=======
+>>>>>>> b830e60e54bb53d0353030a21b4cbe139fd3fd36
         ->order("itemid asc")
         ->paginate(10);
     	// 分页

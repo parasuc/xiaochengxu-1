@@ -356,6 +356,10 @@ getProvence:function(){
 
   nextPage: function () {
     var page = this.data.current_page;
+<<<<<<< HEAD
+=======
+    console.log(page);
+>>>>>>> b830e60e54bb53d0353030a21b4cbe139fd3fd36
     if (page == this.data.last_page) {
       page = this.data.last_page
     }else{
@@ -403,6 +407,7 @@ getProvence:function(){
      this.setData({
         keyword:''
      })
+<<<<<<< HEAD
   },
 
   nvaicat_details:function(ev){
@@ -411,5 +416,7 @@ getProvence:function(){
      wx.navigateTo({
         url: '',
      })
+=======
+>>>>>>> b830e60e54bb53d0353030a21b4cbe139fd3fd36
   }
 })

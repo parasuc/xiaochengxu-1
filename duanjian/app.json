@@ -1,7 +1,10 @@
 {
    "pages": [
+<<<<<<< HEAD
          "pages/zixun/zixun",
             "pages/goodsdetail/goodsdetail",
+=======
+>>>>>>> b830e60e54bb53d0353030a21b4cbe139fd3fd36
             "pages/login/login",
          "pages/register/register",  
          "pages/member_01/index",
@@ -13,8 +16,15 @@
       "pages/factory/factory",
       "pages/buy/buy",
       "pages/gongyin/gongyin",
+<<<<<<< HEAD
       "pages/index/index",
       "pages/sellorbuy/sellorbuy",
+=======
+      "pages/zixun/zixun",
+      "pages/index/index",
+      "pages/sellorbuy/sellorbuy",
+      "pages/goodsdetail/goodsdetail",
+>>>>>>> b830e60e54bb53d0353030a21b4cbe139fd3fd36
       "pages/template/template",
       "pages/newsDetail/newsDetail",
       "pages/member_01/login_01/login",

@@ -28,10 +28,16 @@ class Zixun extends \think\Controller
     	}
     	   $zixun_list=db("article_21")
      			->alias("a")
+<<<<<<< HEAD
          ->field("a.areaid,a.catid,a.itemid,a.title,c.catname,d.content")
          ->where($where_sql)
          ->join("category c","c.catid = a.catid")
           ->join("article_data_21 d","d.itemid=a.itemid")
+=======
+         ->field("a.areaid,a.catid,a.itemid,a.title,c.catname")
+         ->where($where_sql)
+         ->join("category c","c.catid = a.catid")
+>>>>>>> b830e60e54bb53d0353030a21b4cbe139fd3fd36
         ->order("itemid asc")
         ->paginate(10);
     	// 分页

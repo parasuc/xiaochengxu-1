@@ -29,9 +29,13 @@ class Exhibit extends \think\Controller
            $zixun_list=db("club")
                 ->alias("a")
          ->where($where_sql)
+<<<<<<< HEAD
            ->field("a.areaid,a.catid,a.itemid,a.title,c.areaname,d.content")
          ->join("area c","c.areaid = a.areaid")
          ->join("club_data d","d.itemid=a.itemid")
+=======
+         ->join("area c","c.areaid = a.areaid")
+>>>>>>> b830e60e54bb53d0353030a21b4cbe139fd3fd36
         ->order("itemid desc")
         ->paginate(10);
         // 分页
