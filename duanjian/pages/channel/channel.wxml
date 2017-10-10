@@ -1,0 +1,20 @@
+
+<import src="../template/template.wxml" />
+<view class='sea'>
+  <view class='search'>
+    <view class='img' bindtap='search' >
+      <image src='../../images/1.png' ></image>
+    </view>
+    <input type='text' bindtap='redict' placeholder='请输入搜索的内容' class='{{keyword?"quxiao":""}}' value="{{keyword}}"></input>
+</view>
+</view>
+<view class="channel_list">
+  <view bindtap="openChannelDetailed" class="channel_list_item" wx:for="{{channelList}}" 
+  data-id="{{index}}" wx:key="cl">
+    <text class="tli">{{item}}</text>
+    <text class='icon'>></text>
+  </view>
+</view>
+<view class='foot'>
+<template is="item" />
+</view>

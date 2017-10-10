@@ -1,0 +1,54 @@
+
+@import "../template/template.wxss";
+/* //搜索框 */
+.search{
+  width: 95%;
+  margin:20rpx auto;
+  display: flex;
+  background: white;
+  border-radius: 10rpx;
+  height: 60rpx;
+}
+.search .img{
+  width: 15%;
+  height: 95%;
+  text-align: center;
+}
+.sea{
+   background: #f2f2f2;
+   padding: 5rpx 0rpx;
+}
+.search image{
+  width: 40rpx;
+  height:40rpx; 
+  margin-top:15rpx; 
+}
+.search input{
+  width: 100%;
+  height: 100%;
+  font-size: 32rpx;
+}
+.search .quxiao{
+width: 70% !important;
+}
+
+.channel_list{
+   width: 90%;
+   margin: 0 auto;
+}
+.channel_list .channel_list_item{
+   line-height: 60rpx;
+   font-size: 34rpx;
+   border-bottom:1rpx solid #f2f2f2; 
+   padding: 10rpx 0rpx;
+}
+.channel_list .channel_list_item .icon{
+   float: right;
+   margin-right: 20rpx;
+   color:#f2f2f2;
+   font-size: 38rpx;
+}
+.foot{
+ background: #f2f2f2;
+}
+
